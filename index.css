@@ -17,7 +17,7 @@ body{
     border-bottom-right-radius: 100px;    
 }
 nav{
-    background-color: rgba(0, 0, 0, 0.314);
+    background-color: rgba(0, 0, 0, 0.532);
     width: 100%;
     height: 7.5vh;
     display: flex;
@@ -59,7 +59,7 @@ nav a:hover{
 }
 
 .section1 {
-    padding-top: 130px;
+    padding-top: 100px;
     padding-left: 150px;
     background: url('https://cdn.pixabay.com/video/2017/11/02/12716-241674181_large.mp4') center/cover no-repeat;
     width: 90%;
@@ -93,6 +93,7 @@ nav a:hover{
 .section1 span img{
     margin: 2px 12px 2px 2px;
     width: 2rem;
+    padding-bottom: 2rem;
 }
 .section1 span img:hover{
     box-s
@@ -103,6 +104,7 @@ nav a:hover{
     background-color: rgb(3, 1, 100);
     color: white;
 }
+
 .section1 button:hover{
     background-color: rgb(3, 2, 58);
 }
@@ -116,7 +118,7 @@ nav a:hover{
     height: 80vh;
     margin: auto;
     display: flex;
-
+    margin-top:  -70px;
 }
 
 .section2 img{
@@ -124,7 +126,8 @@ nav a:hover{
     border-radius: 460px;
 }
 .section2 div{
-    margin: 12px 102px 22px 62px;
+    
+    margin: 122px 102px 22px 62px;
     align-items: center;
     text-align: center;
     width: 50%;
@@ -185,6 +188,9 @@ nav a:hover{
 
 
 
+#hi{
+    font-size: 2rem;
+}
 
 
 
@@ -204,27 +210,29 @@ nav a:hover{
 
 
 
-
-@media (max-width: 868px){
+@media (max-width: 768px){
     #rizwan{
         position: fixed;
         font-family: "Agu Display", serif;
         color: rgb(255, 255, 255);
-        font-size: 0.78rem;
-        margin: 80px 0px 0px 0px;
+        font-size: 0.58rem;
+        margin: 48px 0px 0px 0px;
         padding: 0px 10px 3px 10px;
-        width: 13%;
+        width: 15%;
         background-color: red;
         border-top-right-radius: 100px;    
         border-bottom-right-radius: 100px;    
     }
-    nav ul{
-        padding-left: 20px;
+nav ul{
+        padding-left: 0px;
 }
-
+nav{
+    background-color: black;
+    height: 5.6vh;
+}
 nav a{
-    font-size: 0.81rem;
-    padding: 10px 2px 2px 29px;
+    font-size: 0.61rem;
+    padding: 0px 2px 2px 10px;
 }
 
 nav h1{
@@ -237,48 +245,97 @@ nav h1{
 
 
 .section1 {
-    padding-top: 160px;
-    padding-left: 70px;
-    height: 60vh;
+    padding: 0;
+    padding-top: 40px;
+    padding-left: 16px;
+    height: 22vh;
+    position: relative;;
 }
+.section1 video{
+    height: fit-content;
+}
+
+#hi{
+    font-size: 0.71rem;
+}
+
+
 .section1 h1{
-    font-size: 1rem;
+    font-size: 0.81rem;
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
 }
 
 .section1 p{
-    font-size: 0.8rem;
+    font-size: 0.6rem;
+    width: 80%;
 }
+.section1 span img{
+    padding-bottom: 0rem;
+    margin: 2px 4px 2px 2px;
+    width: 1rem;
+}
+
 
 
 
 .section2{
-    width: 90%;
-    height: 40vh;
+    margin: 0;
+    width: 98%;
+    height: 20vh;
+    padding: 0;
 
 }
 
 .section2 img{
-    box-shadow: 2px 2px 22px 2px black;
-    border-radius: 460px;
+    width: 20%;
+    height: 10vh;
+    box-shadow: 0px 0px 0px 0px black;
+    border-radius: 0px;
 }
+
+
+.section1 button{
+    padding: 4px 4px 4px 10px ;
+    background-color: rgb(3, 1, 100);
+    color: white;
+    font-size: 0.41rem;
+}
+
+
+
+
 .section2 div{
-    margin: 8px 1px 0px 25px;
+    margin: 122px 102px 22px 62px;
+    border-left: 1px solid black;
+    margin: 0px 80px 0px 7px;
+    padding-left: 10px;
     width: 100%;
+    
 
 }
+
 .section2 p{
     margin: 0;
-    font-size: 0.41rem;
+    font-size: 0.31rem;
 }
 .section2 h1{
     font-size: 1rem;
 }
 
 #find{
-font-size: 1.3rem;
+font-size: 0.8rem;
+padding: 8px;
+box-shadow: none;
+padding-left: 10px;
+
+}
+
+#hr{
+    margin: 0;     
+    border-top: none;
+    box-shadow:none;
 }
 
 
@@ -288,13 +345,13 @@ font-size: 1.3rem;
 .section3{
     flex-direction: column; 
     align-items: initial;
+    width: 100%;
 }
-
 
 .boxes{
     width: 100%;
-    margin: 9px;
-    height: 12vh;
+    margin: 5px;
+    height: 10vh;
     display: flex;
     flex-direction: row;
 
@@ -306,6 +363,8 @@ font-size: 1.3rem;
 .boxes p{
         margin: 0;
         margin: 1.31rem 0.71rem 0rem 0.71rem;
+        width: 40%;
+        font-size: 0.7rem;
 }
 
 
