@@ -119,6 +119,7 @@ nav a:hover{
     margin: auto;
     display: flex;
     margin-top:  -70px;
+    overflow: hidden;
 }
 
 .section2 img{
@@ -126,7 +127,7 @@ nav a:hover{
     border-radius: 460px;
 }
 .section2 div{
-    
+    overflow: hidden;
     margin: 122px 102px 22px 62px;
     align-items: center;
     text-align: center;
@@ -134,6 +135,7 @@ nav a:hover{
 
 }
 .section2 p{
+    overflow: hidden;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     font-size: 1rem;
@@ -167,6 +169,7 @@ nav a:hover{
 
 
 .boxes{
+    overflow: hidden;
     /* border-top-left-radius: 200px; */
     margin: auto;
     width: 20%;
@@ -178,10 +181,12 @@ nav a:hover{
 
 }
 .boxes h3{
+    overflow: hidden;
     margin: 0;
     margin-left: 0.71rem;
 }
 .boxes p{
+    overflow: hidden;
         margin: 0.1rem 0.71rem 0rem 0.71rem;
         font-size: 0.81rem;
 }
